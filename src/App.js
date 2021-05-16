@@ -4,7 +4,7 @@ import "./App.css";
 import Social from "./component/Social";
 import Display from "./component/Display";
 import Button from "./component/Button";
-import Like from "./component/Like";
+
 
 
 function App() {
@@ -25,7 +25,6 @@ function App() {
 
   return (
     <>
-      <body>
         <main class="container">
           <header class="card">
             <img src={user} alt="user" />
@@ -47,7 +46,6 @@ function App() {
           <br></br>
           <Social />
         </main>
-      </body>
     </>
   );
 }
